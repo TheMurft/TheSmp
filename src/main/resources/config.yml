@@ -1,0 +1,105 @@
+prefix: '&8[&bTheSmp&8]'
+language: en
+moderation:
+  # Prevents negative or overflowing mute durations. Default maximum: one year.
+  max-mute-minutes: 525600
+economy:
+  # Requires Vault and an economy plugin. Set a value to 0 to disable that cost.
+  costs:
+    sethome: 0.0
+    warp: 0.0
+    rtp: 0.0
+    clan-create: 0.0
+daily-rewards:
+  commands:
+    - 'give %player% diamond 1'
+  bonus-every: 7
+  bonus-commands:
+    - 'give %player% diamond 5'
+quests:
+  daily-play:
+    name: '&bDaily Adventurer'
+    period: daily
+    type: PLAYTIME
+    target: 30
+    commands: ['give %player% emerald 3']
+  daily-hunter:
+    name: '&cDaily Hunter'
+    period: daily
+    type: MOB_KILLS
+    target: 20
+    commands: ['give %player% diamond 2']
+  weekly-champion:
+    name: '&6Weekly Champion'
+    period: weekly
+    type: PLAYER_KILLS
+    target: 5
+    commands: ['give %player% diamond 10']
+teleport-request-seconds: 60
+teleport-delay-seconds: 3
+rtp:
+  world: world
+  min-radius: 500
+  max-radius: 5000
+  cooldown-seconds: 300
+  attempts: 20
+homes:
+  default-limit: 1
+trade:
+  request-seconds: 60
+friends:
+  notify-status: true
+welcome:
+  enabled: true
+  # Prevents the default "joined/left the game" messages from appearing.
+  hide-vanilla-messages: true
+  join:
+    enabled: true
+    broadcast: true
+    messages:
+      - '&8[&b+&8] &f%player% &7joined the server. &8(&f%online%&7/&f%max%&8)'
+    commands: []
+  first-join:
+    enabled: true
+    broadcast: true
+    messages:
+      - '&8[&a★&8] &fWelcome &b%player% &fto the server for the first time!'
+    commands: []
+custom-commands:
+  discord:
+    aliases: [dc]
+    permission: ''
+    messages:
+      - '&8[&bTheSmp&8] &fJoin our Discord: &bdiscord.gg/yourserver'
+    actions: []
+    # Suggestions shown when the player presses TAB. Use %players% for online players.
+    tab-completions: {}
+  example:
+    aliases: [examplecommand]
+    permission: thesmp.use
+    messages:
+      - '&aSelected player: &f%arg1% &7| Option: &f%arg2%'
+    actions: []
+    tab-completions:
+      1: ['%players%']
+      2: ['invite', 'remove', 'info']
+reports:
+  notify-permission: thesmp.reports.view
+  cooldown-seconds: 60
+  categories:
+    - Cheating
+    - Chat abuse
+    - Griefing
+    - Scamming
+    - Other
+spectator-tab:
+  enabled: true
+  sync-ticks: 40
+clans:
+  max-members: 20
+  invite-seconds: 120
+  friendly-fire: false
+  name-min-length: 3
+  name-max-length: 16
+  tag-min-length: 2
+  tag-max-length: 5

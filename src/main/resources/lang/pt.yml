@@ -1,0 +1,62 @@
+prefix: '&8[&bTheSmp&8] &r'
+expansion:
+  warps: {set-usage: '&eUso: /setwarp <nome>', delete-usage: '&eUso: /delwarp <nome>', created: '&aWarp &f%warp% &acriado.', deleted: '&eWarp removido.', not-found: '&cWarp não encontrado.', teleported: '&aTeleportado para &f%warp%&a.', title: '&0Warps do servidor', click: '&7Clique para teleportar.'}
+  back: {none: '&cVocê não tem uma localização anterior.', success: '&aVocê voltou à localização anterior.'}
+  ignore: {usage: '&eUso: /ignore <jogador>', unusage: '&eUso: /unignore <jogador>', self: '&cVocê não pode ignorar a si mesmo.', added: '&eAgora você ignora &f%player%&e.', removed: '&aVocê não ignora mais &f%player%&a.', list: '&eJogadores ignorados: &f%players%', none: 'Nenhum'}
+  moderation: {warn-usage: '&eUso: /warn <jogador> <motivo>', warned: '&aVocê advertiu &f%player%&a.', warning: '&cAdvertência: &f%reason%', mute-usage: '&eUso: /mute <jogador> <minutos> [motivo]', invalid-duration: '&cDuração inválida.', default-reason: 'Silenciado pela equipe', muted: '&aVocê silenciou &f%player% &apor &f%minutes% minutos&a.', muted-target: '&cVocê foi silenciado: &f%reason%', unmute-usage: '&eUso: /unmute <jogador>', unmuted: '&aJogador dessilenciado.', warnings-title: '&8&m-----&r &cAdvertências &8&m-----', no-warnings: '&aNenhuma advertência.', warning-entry: '&7#%number% &f%reason% &8- %staff%', unknown: 'Desconhecido', history-usage: '&eUso: /history <jogador>', active-mute: '&cSilenciamento ativo: &f%reason%', no-active-mute: '&aNenhum silenciamento ativo.', muted-chat: '&cVocê está silenciado por mais &f%minutes% minuto(s)&c. Motivo: &f%reason%'}
+  economy: {unavailable: '&cA economia não está disponível.', need: '&cVocê precisa de &f%amount% &cpara fazer isso.', paid: '&7Você pagou &f%amount%&7.', not-enough: '&cDinheiro insuficiente.', vault-unavailable: '&cA economia do Vault não está disponível.'}
+  profile: {title: '&8&m-----&r &b&l%player% &8&m-----', status: '&7Status: %status%', online: '&aOnline', offline: '&7Offline', playtime: '&7Tempo jogado: &f%hours% horas', stats: '&7Jogadores eliminados: &f%players% &7Mobs eliminados: &f%mobs% &7Mortes: &f%deaths%', friends: '&7Amigos: &f%count%', clan: '&7Clã: &f%clan%', last-seen: '&7Visto pela última vez: &f%time%', now: 'Agora'}
+  daily: {title: '&0Recompensas diárias', claimed-name: '&7Já resgatada', claim-name: '&aResgatar recompensa diária', streak: '&7Sequência atual: &f%streak%', tomorrow: '&7Volte amanhã.', click: '&eClique para resgatar.', already: '&eVocê já resgatou a recompensa de hoje.', success: '&aRecompensa resgatada! Sequência: &f%streak%'}
+  quests: {reward: '&aRecompensa da missão resgatada: &f%quest%', title: '&0Missões diárias e semanais', period: '&7Período: &f%period%', progress: '&7Progresso: &f%progress%&7/&f%target%', claimed: '&7Já resgatada.', claim: '&aClique para resgatar.', keep-playing: '&eContinue jogando!'}
+clan-advanced: {top-entry: '&b%clan% &8[&f%tag%&8] &7Nível &f%level% &7Pontos &f%points%', no-home: '&cSeu clã não tem uma casa.', home-teleported: '&aTeleportado para a casa do clã.', home-updated: '&aCasa do clã atualizada.', bank: '&bBanco do clã: &f%amount%', bank-usage: '&eUso: /clanbank <deposit|withdraw> <quantia>', invalid-amount: '&cQuantia inválida.', bank-insufficient: '&cO banco do clã não possui fundos suficientes.', bank-balance: '&aSaldo do banco do clã: &f%amount%', level: '&b%clan% &7Nível: &f%level% &7Pontos: &f%points%'}
+safety: {requires-ground: '&cVocê precisa estar sobre um bloco sólido para sentar.', invalid-warp: '&cNomes de warp só podem conter letras A-Z e números 0-9.', invalid-mute: '&cA duração deve ficar entre 1 e %max% minutos.', unmuted-target: '&aA equipe removeu seu silenciamento.', mute-expired: '&aSeu silenciamento terminou. Você pode falar novamente.'}
+clan-safety: {disband-confirm: '&cAviso: use /clan disband novamente em até 10 segundos para excluir seu clã permanentemente.', chat-global: '&aChat alterado para global.', chat-clan: '&bChat alterado para clã. Use /clan chat off para voltar ao global.', chat-ally: '&dChat alterado para aliados. Use /clan chat off para voltar ao global.'}
+no-permission: '&cVocê não tem permissão para fazer isso.'
+only-player: '&cSomente jogadores podem usar este comando.'
+player-not-found: '&cEsse jogador não está online.'
+reload: '&aConfiguração e idioma do TheSmp recarregados.'
+language: {changed: '&aIdioma pessoal alterado para &f%language%&a.', global-changed: '&aIdioma global alterado para &f%language%&a.', usage: '&eUso: /thesmp language <en|es|pt|fr>', available: '&eIdiomas disponíveis: &fen, es, pt, fr', menu-title: '&0Escolha seu idioma', global-title: '&0Escolha o idioma global', selected: '&aSelecionado atualmente', choose: '&eClique para selecionar'}
+guide: {title: '&0Guia do TheSmp', homes: '&bCasas', teleport: '&bTeletransporte', poses: '&bPoses', trade: '&bTrocas', reports: '&bDenúncias', clans: '&bClãs', menus: '&bMenus do servidor', friends: '&bAmigos'}
+friends: {menu-title: '&0Amigos', list-title: '&0Seus amigos', requests-title: '&0Pedidos de amizade', list-name: '&bLista de amigos', requests-name: '&ePedidos pendentes', help-name: '&fComandos de amigos', count: '&7Total: &f%count%', usage: '&eUse /friends ou /friend add|accept|deny|remove|msg|list|requests.', self: '&cVocê não pode adicionar a si mesmo.', already: '&cEsse jogador já é seu amigo.', request-exists: '&eVocê já enviou um pedido.', request-sent: '&aPedido enviado para &f%player%&a.', request-received: '&f%player% &eenviou um pedido de amizade.', no-request: '&cNenhum pedido desse jogador.', accepted: '&aAgora você é amigo de &f%player%&a.', accepted-other: '&f%player% &aaceitou seu pedido.', denied: '&ePedido recusado.', not-friend: '&cEsse jogador não é seu amigo.', removed: '&eAmigo removido.', msg-usage: '&eUso: /friend msg <jogador> <mensagem>', msg-sent: '&8[&bPara %player%&8] &f%message%', msg-received: '&8[&bDe %player%&8] &f%message%', offline: '&cEsse amigo está offline.', online: '&aOnline', offline-status: '&7Offline', empty: '&eSua lista está vazia.', no-requests: '&eNenhum pedido pendente.', joined: '&aSeu amigo &f%player% &aentrou.', left: '&7Seu amigo &f%player% &7saiu.'}
+private-message: {usage: '&eUso: /msg <jogador> <mensagem>', reply-usage: '&eUso: /reply <mensagem>', self: '&cVocê não pode enviar mensagem para si mesmo.', no-reply: '&cNão há ninguém online para responder.', sent: '&8[&bVocê &7-> &f%player%&8] &f%message%', received: '&8[&f%player% &7-> &bVocê&8] &f%message%', ignored: '&cEsse jogador não aceita suas mensagens.'}
+homes: {set: '&aCasa &f%home% &adefinida.', deleted: '&aCasa &f%home% &aremovida.', not-found: '&cA casa &f%home% &cnão existe.', limit: '&cVocê atingiu o limite de %limit% casas.', teleported: '&aTeleportado para &f%home%&a.', empty: '&eVocê ainda não tem casas. Use /sethome [nome].', menu-title: '&0Suas casas', lore: ['&7Mundo: &f%world%', '&7X: &f%x% &7Y: &f%y% &7Z: &f%z%', '', '&aClique esquerdo para ir', '&cClique direito para remover']}
+teleport: {usage: '&eUso: %usage%', self: '&cVocê não pode enviar uma solicitação para si mesmo.', sent: '&aSolicitação enviada para &f%player%&a.', received-to: '&f%player% &equer se teleportar até você. Use &a/tpallow &eou &c/tpdeny&e.', received-here: '&f%player% &equer que você vá até ele. Use &a/tpallow &eou &c/tpdeny&e.', none: '&cVocê não tem solicitação pendente.', expired: '&cA solicitação expirou.', denied: '&cSolicitação recusada.', denied-sender: '&c%player% recusou sua solicitação.', warmup: '&eTeleportando em %seconds% segundos. Não se mova.', moved: '&cTeletransporte cancelado porque você se moveu.', success: '&aTeletransporte concluído.'}
+rtp: {cooldown: '&cAguarde %seconds% segundos para usar RTP novamente.', searching: '&eProcurando um local aleatório seguro...', failed: '&cNão foi possível encontrar um local seguro.', success: '&aTeleportado para: &f%x%, %y%, %z%&a.'}
+spawn: {set: '&aSpawn do servidor definido.', not-set: '&cO spawn ainda não foi configurado.', teleported: '&aTeleportado para o spawn.'}
+pose: {sit: '&aVocê está sentado. Pressione Shift ou use /sit para levantar.', stop: '&ePose removida.'}
+trade: {usage: '&eUso: /trade <jogador>', sent: '&aSolicitação de troca enviada para &f%player%&a.', received: '&f%player% &equer trocar com você. Use &a/trade %player% &epara aceitar.', expired: '&cA solicitação expirou.', busy: '&cUm de vocês já está trocando.', title: '&0Troca: %left% ↔ %right%', accepted: '&aAceito', click-accept: '&eClique para aceitar', complete: '&aTroca concluída.', cancelled: '&cTroca cancelada; todos os itens foram devolvidos.'}
+report:
+  usage: '&eUso: /report <jogador> [motivo]'
+  self: '&cVocê não pode denunciar a si mesmo.'
+  submitted: '&aDenúncia &f#%id% &acontra &f%player% &aenviada.'
+  notify: '&cNova denúncia #%id%: &f%reporter% &7denunciou &f%target% &8[&e%category%&8] &7por: &f%reason%'
+  cooldown: '&cAguarde %seconds% segundos antes de denunciar novamente.'
+  duplicate: '&eVocê já tem a denúncia ativa &f#%id% &econtra este jogador.'
+  category-title: '&0Denunciar %player%'
+  dashboard-title: '&0Gerenciar denúncias'
+  list-title: '&0Denúncias - %section%'
+  details-title: '&0Gerenciar denúncia #%id%'
+  pending-name: '&eDenúncias pendentes'
+  resolved-name: '&aDenúncias resolvidas'
+  rejected-name: '&cDenúncias rejeitadas'
+  section-pending: 'Pendentes'
+  section-resolved: 'Resolvidas'
+  section-rejected: 'Rejeitadas'
+  count: '&7Denúncias: &f%count%'
+  back: '&cVoltar'
+  mark-pending: '&eMarcar como pendente'
+  mark-resolved: '&aMarcar como resolvida'
+  mark-rejected: '&cRejeitar denúncia'
+  teleport-target: '&bIr ao jogador'
+  empty: '&eNão há denúncias.'
+  empty-filter: '&eNão há denúncias em %filter%.'
+  not-found: '&cA denúncia #%id% não existe.'
+  admin-usage: '&eUse /reports [pending|resolved|rejected|id] ou /reports <review|resolve|dismiss|reopen> <id>.'
+  status-updated: '&aA denúncia #%id% agora está &f%status%&a.'
+  target-offline: '&cO jogador denunciado está offline.'
+  teleported: '&aTeleportado até &f%player%&a.'
+  details-header: '&8&m----------&r &cDenúncia #%id% &8&m----------'
+  details: ['&7Alvo: &f%target% &8| &7Autor: &f%reporter%', '&7Categoria: &f%category% &8| &7Estado: &f%status%', '&7Motivo: &f%reason%', '&7Criada: &f%created%', '&7Local: &f%world% %x%, %y%, %z%', '&7Gerenciada por: &f%handler%']
+menus: {not-found: '&cO menu &f%menu% &cnão existe.', list: '&eMenus disponíveis: &f%menus%'}
+clan: {menu-title: '&0Sede do clã', no-clan: '&cVocê não está em um clã.', already: '&cVocê já está em um clã.', created: '&aClã &f%clan% &8[&f%tag%&8] &acriado.', exists: '&cEsse nome ou tag já está em uso.', invalid: '&cUse 3-16 letras/números no nome e 2-5 na tag.', invite-sent: '&aVocê convidou &f%player%&a.', invite-received: '&f%player% &econvidou você para &f%clan%&e. Use /clan accept.', invite-none: '&cVocê não tem um convite válido.', joined: '&aVocê entrou em &f%clan%&a.', left: '&eVocê saiu do clã.', leader-leave: '&cO líder deve usar /clan disband.', disbanded: '&cSeu clã foi dissolvido.', kicked: '&eO jogador &f%player% &efoi removido.', staff-only: '&cSomente o líder ou oficiais podem fazer isso.', leader-only: '&cSomente o líder pode fazer isso.', usage: '&eUse /clan para abrir o menu.', chat-format: '&8[&bClã&8] &f%player%&7: &f%message%', ally-format: '&8[&dAliados&8] &f%player%&7: &f%message%'}
+teleport-failed: '&cO teletransporte falhou.'

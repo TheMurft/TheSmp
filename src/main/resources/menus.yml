@@ -1,0 +1,51 @@
+menus:
+  main:
+    title: '&0TheSmp Menu'
+    size: 27
+    open-command: smpmenu
+    permission: thesmp.menu
+    items:
+      homes:
+        slot: 11
+        material: RED_BED
+        name: '&bYour Homes'
+        lore: ['&7Open your homes menu.']
+        commands: ['homes']
+      clan:
+        slot: 13
+        material: SHIELD
+        name: '&bClan Headquarters'
+        lore: ['&7Manage your clan.']
+        commands: ['clan']
+      rtp:
+        slot: 15
+        material: ENDER_PEARL
+        name: '&bRandom Teleport'
+        lore: ['&7Explore somewhere new.']
+        commands: ['rtp']
+  links:
+    title: '&0Community & Links'
+    size: 27
+    open-command: links
+    permission: thesmp.menu
+    items:
+      info:
+        slot: 13
+        material: WRITABLE_BOOK
+        name: '&b&lServer Community'
+        lore:
+          - '&7Find the community links and'
+          - '&7important server information.'
+          - ''
+          - '&eClick to receive the links.'
+        messages:
+          - ''
+          - '&8&m--------------------------------'
+          - '&b&lSERVER COMMUNITY'
+          - '&7Discord: &fdiscord.gg/your-server'
+          - '&7Website: &fhttps://your-server.example'
+          - '&7Store: &fhttps://store.your-server.example'
+          - '&8&m--------------------------------'
+          - ''
+        commands:
+          - 'title:&bCommunity|&7Links sent in chat'

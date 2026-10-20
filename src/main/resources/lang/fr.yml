@@ -1,0 +1,62 @@
+prefix: '&8[&bTheSmp&8] &r'
+expansion:
+  warps: {set-usage: '&eUtilisation : /setwarp <nom>', delete-usage: '&eUtilisation : /delwarp <nom>', created: '&aWarp &f%warp% &acréé.', deleted: '&eWarp supprimé.', not-found: '&cWarp introuvable.', teleported: '&aTéléporté vers &f%warp%&a.', title: '&0Warps du serveur', click: '&7Cliquez pour vous téléporter.'}
+  back: {none: '&cVous n''avez aucune position précédente.', success: '&aRetour à votre position précédente.'}
+  ignore: {usage: '&eUtilisation : /ignore <joueur>', unusage: '&eUtilisation : /unignore <joueur>', self: '&cVous ne pouvez pas vous ignorer.', added: '&eVous ignorez maintenant &f%player%&e.', removed: '&aVous n''ignorez plus &f%player%&a.', list: '&eJoueurs ignorés : &f%players%', none: 'Aucun'}
+  moderation: {warn-usage: '&eUtilisation : /warn <joueur> <raison>', warned: '&aAvertissement donné à &f%player%&a.', warning: '&cAvertissement : &f%reason%', mute-usage: '&eUtilisation : /mute <joueur> <minutes> [raison]', invalid-duration: '&cDurée invalide.', default-reason: 'Rendu muet par le staff', muted: '&aVous avez rendu &f%player% &amuet pendant &f%minutes% minutes&a.', muted-target: '&cVous êtes muet : &f%reason%', unmute-usage: '&eUtilisation : /unmute <joueur>', unmuted: '&aJoueur réactivé.', warnings-title: '&8&m-----&r &cAvertissements &8&m-----', no-warnings: '&aAucun avertissement.', warning-entry: '&7#%number% &f%reason% &8- %staff%', unknown: 'Inconnu', history-usage: '&eUtilisation : /history <joueur>', active-mute: '&cSanction active : &f%reason%', no-active-mute: '&aAucune sanction active.', muted-chat: '&cVous êtes muet pour encore &f%minutes% minute(s)&c. Raison : &f%reason%'}
+  economy: {unavailable: '&cL’économie n’est pas disponible.', need: '&cIl vous faut &f%amount% &cpour faire cela.', paid: '&7Vous avez payé &f%amount%&7.', not-enough: '&cFonds insuffisants.', vault-unavailable: '&cL’économie Vault n’est pas disponible.'}
+  profile: {title: '&8&m-----&r &b&l%player% &8&m-----', status: '&7Statut : %status%', online: '&aEn ligne', offline: '&7Hors ligne', playtime: '&7Temps de jeu : &f%hours% heures', stats: '&7Joueurs éliminés : &f%players% &7Mobs éliminés : &f%mobs% &7Morts : &f%deaths%', friends: '&7Amis : &f%count%', clan: '&7Clan : &f%clan%', last-seen: '&7Dernière connexion : &f%time%', now: 'Maintenant'}
+  daily: {title: '&0Récompenses quotidiennes', claimed-name: '&7Déjà récupérée', claim-name: '&aRécupérer la récompense', streak: '&7Série actuelle : &f%streak%', tomorrow: '&7Revenez demain.', click: '&eCliquez pour récupérer.', already: '&eVous avez déjà récupéré la récompense du jour.', success: '&aRécompense récupérée ! Série : &f%streak%'}
+  quests: {reward: '&aRécompense de quête récupérée : &f%quest%', title: '&0Quêtes quotidiennes et hebdomadaires', period: '&7Période : &f%period%', progress: '&7Progression : &f%progress%&7/&f%target%', claimed: '&7Déjà récupérée.', claim: '&aCliquez pour récupérer.', keep-playing: '&eContinuez à jouer !'}
+clan-advanced: {top-entry: '&b%clan% &8[&f%tag%&8] &7Niveau &f%level% &7Points &f%points%', no-home: '&cVotre clan n’a pas de foyer.', home-teleported: '&aTéléporté au foyer du clan.', home-updated: '&aFoyer du clan mis à jour.', bank: '&bBanque du clan : &f%amount%', bank-usage: '&eUtilisation : /clanbank <deposit|withdraw> <montant>', invalid-amount: '&cMontant invalide.', bank-insufficient: '&cLa banque du clan ne dispose pas de fonds suffisants.', bank-balance: '&aSolde de la banque du clan : &f%amount%', level: '&b%clan% &7Niveau : &f%level% &7Points : &f%points%'}
+safety: {requires-ground: '&cVous devez être sur un bloc solide pour vous asseoir.', invalid-warp: '&cLes noms de warp ne peuvent contenir que les lettres A-Z et les chiffres 0-9.', invalid-mute: '&cLa durée doit être comprise entre 1 et %max% minutes.', unmuted-target: '&aLe staff a levé votre sanction de chat.', mute-expired: '&aVotre sanction est terminée. Vous pouvez à nouveau parler.'}
+clan-safety: {disband-confirm: '&cAttention : utilisez encore /clan disband dans les 10 secondes pour supprimer définitivement votre clan.', chat-global: '&aCanal de discussion global activé.', chat-clan: '&bCanal du clan activé. Utilisez /clan chat off pour revenir au global.', chat-ally: '&dCanal des alliés activé. Utilisez /clan chat off pour revenir au global.'}
+no-permission: '&cVous n''avez pas la permission.'
+only-player: '&cSeuls les joueurs peuvent utiliser cette commande.'
+player-not-found: '&cCe joueur n''est pas connecté.'
+reload: '&aConfiguration et langue de TheSmp rechargées.'
+language: {changed: '&aLangue personnelle changée en &f%language%&a.', global-changed: '&aLangue globale changée en &f%language%&a.', usage: '&eUtilisation : /thesmp language <en|es|pt|fr>', available: '&eLangues disponibles : &fen, es, pt, fr', menu-title: '&0Choisissez votre langue', global-title: '&0Choisissez la langue globale', selected: '&aActuellement sélectionnée', choose: '&eCliquez pour sélectionner'}
+guide: {title: '&0Guide TheSmp', homes: '&bMaisons', teleport: '&bTéléportation', poses: '&bPoses', trade: '&bÉchange', reports: '&bSignalements', clans: '&bClans', menus: '&bMenus du serveur', friends: '&bAmis'}
+friends: {menu-title: '&0Amis', list-title: '&0Vos amis', requests-title: '&0Demandes d''ami', list-name: '&bListe d''amis', requests-name: '&eDemandes en attente', help-name: '&fCommandes d''amis', count: '&7Total : &f%count%', usage: '&eUtilisez /friends ou /friend add|accept|deny|remove|msg|list|requests.', self: '&cVous ne pouvez pas vous ajouter.', already: '&cCe joueur est déjà votre ami.', request-exists: '&eDemande déjà envoyée.', request-sent: '&aDemande envoyée à &f%player%&a.', request-received: '&f%player% &evous a envoyé une demande.', no-request: '&cAucune demande de ce joueur.', accepted: '&aVous êtes maintenant ami avec &f%player%&a.', accepted-other: '&f%player% &aa accepté votre demande.', denied: '&eDemande refusée.', not-friend: '&cCe joueur n''est pas votre ami.', removed: '&eAmi supprimé.', msg-usage: '&eUtilisation : /friend msg <joueur> <message>', msg-sent: '&8[&bÀ %player%&8] &f%message%', msg-received: '&8[&bDe %player%&8] &f%message%', offline: '&cCet ami est hors ligne.', online: '&aEn ligne', offline-status: '&7Hors ligne', empty: '&eVotre liste est vide.', no-requests: '&eAucune demande.', joined: '&aVotre ami &f%player% &as''est connecté.', left: '&7Votre ami &f%player% &7s''est déconnecté.'}
+private-message: {usage: '&eUtilisation : /msg <joueur> <message>', reply-usage: '&eUtilisation : /reply <message>', self: '&cVous ne pouvez pas vous envoyer un message.', no-reply: '&cPersonne en ligne à qui répondre.', sent: '&8[&bVous &7-> &f%player%&8] &f%message%', received: '&8[&f%player% &7-> &bVous&8] &f%message%', ignored: '&cCe joueur refuse vos messages.'}
+homes: {set: '&aMaison &f%home% &adéfinie.', deleted: '&aMaison &f%home% &asupprimée.', not-found: '&cLa maison &f%home% &cn''existe pas.', limit: '&cVous avez atteint la limite de %limit% maisons.', teleported: '&aTéléporté vers &f%home%&a.', empty: '&eVous n''avez aucune maison. Utilisez /sethome [nom].', menu-title: '&0Vos maisons', lore: ['&7Monde : &f%world%', '&7X: &f%x% &7Y: &f%y% &7Z: &f%z%', '', '&aClic gauche pour aller', '&cClic droit pour supprimer']}
+teleport: {usage: '&eUtilisation : %usage%', self: '&cVous ne pouvez pas vous envoyer une demande.', sent: '&aDemande envoyée à &f%player%&a.', received-to: '&f%player% &esouhaite se téléporter vers vous. Utilisez &a/tpallow &eou &c/tpdeny&e.', received-here: '&f%player% &esouhaite que vous le rejoigniez. Utilisez &a/tpallow &eou &c/tpdeny&e.', none: '&cVous n''avez aucune demande.', expired: '&cCette demande a expiré.', denied: '&cDemande refusée.', denied-sender: '&c%player% a refusé votre demande.', warmup: '&eTéléportation dans %seconds% secondes. Ne bougez pas.', moved: '&cTéléportation annulée car vous avez bougé.', success: '&aTéléportation terminée.'}
+rtp: {cooldown: '&cAttendez %seconds% secondes avant de réutiliser le RTP.', searching: '&eRecherche d''un emplacement sûr...', failed: '&cAucun emplacement sûr trouvé.', success: '&aTéléporté vers : &f%x%, %y%, %z%&a.'}
+spawn: {set: '&aSpawn du serveur défini.', not-set: '&cLe spawn n''est pas encore configuré.', teleported: '&aTéléporté au spawn.'}
+pose: {sit: '&aVous êtes assis. Appuyez sur Shift ou utilisez /sit pour vous lever.', stop: '&ePose supprimée.'}
+trade: {usage: '&eUtilisation : /trade <joueur>', sent: '&aDemande d''échange envoyée à &f%player%&a.', received: '&f%player% &esouhaite échanger. Utilisez &a/trade %player% &epour accepter.', expired: '&cLa demande a expiré.', busy: '&cL''un de vous échange déjà.', title: '&0Échange : %left% ↔ %right%', accepted: '&aAccepté', click-accept: '&eCliquez pour accepter', complete: '&aÉchange terminé.', cancelled: '&cÉchange annulé ; les objets ont été rendus.'}
+report:
+  usage: '&eUtilisation : /report <joueur> [raison]'
+  self: '&cVous ne pouvez pas vous signaler.'
+  submitted: '&aSignalement &f#%id% &acontre &f%player% &aenvoyé.'
+  notify: '&cNouveau signalement #%id% : &f%reporter% &7a signalé &f%target% &8[&e%category%&8] &7pour : &f%reason%'
+  cooldown: '&cAttendez %seconds% secondes avant un autre signalement.'
+  duplicate: '&eVous avez déjà le signalement actif &f#%id% &econtre ce joueur.'
+  category-title: '&0Signaler %player%'
+  dashboard-title: '&0Gestion des signalements'
+  list-title: '&0Signalements - %section%'
+  details-title: '&0Gérer le signalement #%id%'
+  pending-name: '&eSignalements en attente'
+  resolved-name: '&aSignalements résolus'
+  rejected-name: '&cSignalements rejetés'
+  section-pending: 'En attente'
+  section-resolved: 'Résolus'
+  section-rejected: 'Rejetés'
+  count: '&7Signalements : &f%count%'
+  back: '&cRetour'
+  mark-pending: '&eMarquer en attente'
+  mark-resolved: '&aMarquer résolu'
+  mark-rejected: '&cRejeter le signalement'
+  teleport-target: '&bAller au joueur'
+  empty: '&eAucun signalement.'
+  empty-filter: '&eAucun signalement dans %filter%.'
+  not-found: '&cLe signalement #%id% n''existe pas.'
+  admin-usage: '&eUtilisez /reports [pending|resolved|rejected|id] ou /reports <review|resolve|dismiss|reopen> <id>.'
+  status-updated: '&aLe signalement #%id% est maintenant &f%status%&a.'
+  target-offline: '&cLe joueur signalé est hors ligne.'
+  teleported: '&aTéléporté vers &f%player%&a.'
+  details-header: '&8&m----------&r &cSignalement #%id% &8&m----------'
+  details: ['&7Cible : &f%target% &8| &7Auteur : &f%reporter%', '&7Catégorie : &f%category% &8| &7État : &f%status%', '&7Raison : &f%reason%', '&7Créé : &f%created%', '&7Position : &f%world% %x%, %y%, %z%', '&7Géré par : &f%handler%']
+menus: {not-found: '&cLe menu &f%menu% &cn''existe pas.', list: '&eMenus disponibles : &f%menus%'}
+clan: {menu-title: '&0Quartier général du clan', no-clan: '&cVous n''êtes dans aucun clan.', already: '&cVous êtes déjà dans un clan.', created: '&aClan &f%clan% &8[&f%tag%&8] &acréé.', exists: '&cCe nom ou tag est déjà utilisé.', invalid: '&cUtilisez 3-16 lettres/chiffres pour le nom et 2-5 pour le tag.', invite-sent: '&aVous avez invité &f%player%&a.', invite-received: '&f%player% &evous invite dans &f%clan%&e. Utilisez /clan accept.', invite-none: '&cVous n''avez aucune invitation valide.', joined: '&aVous avez rejoint &f%clan%&a.', left: '&eVous avez quitté le clan.', leader-leave: '&cLe chef doit utiliser /clan disband.', disbanded: '&cVotre clan a été dissous.', kicked: '&eLe joueur &f%player% &ea été exclu.', staff-only: '&cSeuls le chef ou les officiers peuvent faire cela.', leader-only: '&cSeul le chef peut faire cela.', usage: '&eUtilisez /clan pour ouvrir le menu.', chat-format: '&8[&bClan&8] &f%player%&7 : &f%message%', ally-format: '&8[&dAlliés&8] &f%player%&7 : &f%message%'}
+teleport-failed: '&cLa téléportation a échoué.'

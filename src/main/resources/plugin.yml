@@ -1,0 +1,163 @@
+name: TheSmp
+version: 1.8.2
+main: dev.themurft.thesmp.TheSmp
+api-version: '1.21'
+authors: [TheMurft]
+description: Complete SMP core with homes, teleports, trades, reports, menus, clans and spectator tab control.
+softdepend: [LuckPerms, PlaceholderAPI, ProtocolLib, TAB, Vault]
+commands:
+  sethome:
+    aliases: [sehome]
+    usage: /sethome [name]
+  home:
+    usage: /home [name]
+  homes:
+    usage: /homes
+  delhome:
+    usage: /delhome <name>
+  tpa:
+    usage: /tpa <player>
+  tphere:
+    usage: /tphere <player>
+  tpallow:
+    aliases: [tpaccept]
+  tpdeny: {}
+  rtp:
+    aliases: [wild]
+  spawn: {}
+  setspawn: {}
+  sit: {}
+  trade:
+    usage: /trade <player>
+  report:
+    usage: /report <player> [reason]
+  reports:
+    usage: /reports [pending|resolved|rejected|id|review|resolve|dismiss|reopen]
+  menu:
+    usage: /menu [menu]
+  lang:
+    aliases: [language, idioma]
+    usage: /lang
+  langg:
+    aliases: [globallang, idiomaglobal]
+    usage: /langg
+  friend:
+    aliases: [amigo]
+    usage: /friend <add|accept|deny|remove|msg|list|requests> [player] [message]
+  friends:
+    aliases: [amigos]
+    usage: /friends
+  msg:
+    aliases: [tell, whisper, w, mensaje]
+    usage: /msg <player> <message>
+  reply:
+    aliases: [r, responder]
+    usage: /reply <message>
+  warp: {usage: '/warp [name]'}
+  warps: {}
+  setwarp: {usage: '/setwarp <name>'}
+  delwarp: {usage: '/delwarp <name>'}
+  back: {}
+  ignore: {usage: '/ignore <player>'}
+  unignore: {usage: '/unignore <player>'}
+  ignorelist: {}
+  warn: {usage: '/warn <player> <reason>'}
+  warnings: {usage: '/warnings [player]'}
+  mute: {usage: '/mute <player> <minutes> [reason]'}
+  unmute: {usage: '/unmute <player>'}
+  history: {usage: '/history <player>'}
+  clanhome: {}
+  setclanhome: {}
+  clanbank: {usage: '/clanbank [deposit|withdraw] [amount]'}
+  clanlevel: {}
+  clantop: {}
+  profile:
+    aliases: [perfil]
+    usage: /profile [player]
+  daily: {}
+  rewards: {}
+  quests:
+    aliases: [missions, misiones]
+  clan:
+    aliases: [clans]
+  cc:
+    aliases: [clanchat]
+  ac:
+    aliases: [allychat]
+  thesmp:
+    usage: /thesmp [reload|language <en|es|pt|fr>]
+permissions:
+  thesmp.use:
+    default: true
+  thesmp.homes.default:
+    default: true
+  thesmp.homes.2:
+    default: false
+  thesmp.homes.3:
+    default: false
+  thesmp.homes.5:
+    default: false
+  thesmp.homes.10:
+    default: op
+  thesmp.homes.unlimited:
+    default: op
+  thesmp.teleport:
+    default: true
+  thesmp.rtp:
+    default: true
+  thesmp.spawn:
+    default: true
+  thesmp.setspawn:
+    default: op
+  thesmp.pose:
+    default: true
+  thesmp.trade:
+    default: true
+  thesmp.report:
+    default: true
+  thesmp.reports.view:
+    default: op
+  thesmp.reports.manage:
+    default: op
+  thesmp.menu:
+    default: true
+  thesmp.language:
+    default: true
+  thesmp.language.global:
+    default: op
+  thesmp.friends:
+    default: true
+  thesmp.msg:
+    default: true
+  thesmp.warps:
+    default: true
+  thesmp.warps.admin:
+    default: op
+  thesmp.warp.*:
+    default: true
+  thesmp.back:
+    default: true
+  thesmp.ignore:
+    default: true
+  thesmp.moderation.warn:
+    default: op
+  thesmp.moderation.mute:
+    default: op
+  thesmp.moderation.view:
+    default: op
+  thesmp.profile:
+    default: true
+  thesmp.profile.others:
+    default: true
+  thesmp.daily:
+    default: true
+  thesmp.quests:
+    default: true
+  thesmp.clan.use:
+    default: true
+  thesmp.clan.create:
+    default: true
+  thesmp.spectatortab.see:
+    default: op
+  thesmp.admin:
+    default: op

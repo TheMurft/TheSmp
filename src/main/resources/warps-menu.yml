@@ -1,0 +1,27 @@
+# Dedicated configuration for the /warps inventory.
+title: '&0&lServer Warps &8(%count%)'
+# Valid sizes: 9, 18, 27, 36, 45 or 54.
+size: 54
+fill-empty-slots: true
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ' '
+default-item:
+  material: ENDER_PEARL
+  name: '&b&l%warp%'
+  lore:
+    - '&7Travel to &f%warp%&7.'
+    - '&7World: &f%world%'
+    - '&7Coordinates: &f%x%, %y%, %z%'
+    - ''
+    - '&eClick to teleport.'
+# Add one section per warp. Its key must match the warp name.
+# Remove "slot" to use the first available slot automatically.
+warps: {}
+# Example:
+# warps:
+#   spawn:
+#     slot: 13
+#     material: GRASS_BLOCK
+#     name: '&a&lServer Spawn'
+#     lore: ['&7Return to the main server area.', '', '&eClick to teleport.']
